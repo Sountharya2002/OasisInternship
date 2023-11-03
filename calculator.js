@@ -28,3 +28,7 @@ function calculateSquareRoot() {
       document.getElementById("display").value = "Error";
   }
 }
+function calculatePercentage(){
+  let display=document.getElementById('display');
+  display.value=(parseFloat(display.value)/100).toString();
+}
